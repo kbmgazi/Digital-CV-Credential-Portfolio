@@ -148,16 +148,6 @@ Fonts are loaded from Google Fonts in `index.html` (`IBM Plex Sans` for headings
 4. Choose your default branch (e.g. `main`) and the `/ (root)` folder, then save.
 5. GitHub will publish the site at `https://<your-username>.github.io/<repo-name>/` within a few minutes.
 
-### AWS S3 + CloudFront
-1. Create an S3 bucket (any globally unique name).
-2. Upload the entire contents of this folder to the bucket (keep the same folder structure).
-3. Under the bucket's **Properties**, enable **Static website hosting**, and set `index.html` as the index document.
-4. If serving directly from S3, update the bucket policy to allow public `s3:GetObject` access (or, for a private bucket, keep it locked down and let CloudFront handle public access via an Origin Access Control).
-5. Create a **CloudFront distribution** with the S3 bucket (or its static website endpoint) as the origin.
-6. Set the default root object to `index.html`.
-7. (Optional) Attach a custom domain and an ACM SSL certificate to the CloudFront distribution.
-8. Once deployed, CloudFront will serve the site over HTTPS at its `*.cloudfront.net` domain, or your custom domain if configured.
-
 ---
 
 ## What's intentionally left out
