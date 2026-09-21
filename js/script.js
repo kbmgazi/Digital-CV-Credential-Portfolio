@@ -161,6 +161,17 @@ const certifications = [
     description: "Develops essential professional, workplace, and digital-age skills required to succeed in modern technology-driven organisations. Covers communication, collaboration, problem-solving, critical thinking, professional effectiveness, adaptability, self-management, and career development, with an emphasis on building the mindset and capabilities needed to work effectively in a rapidly changing digital environment.",
     image: "assets/certificates/Professional-Foundations-certificate-keamohetse-mgazi.pdf",
     verificationUrl: "https://savanna.alxafrica.com/certificates/pzYr9E832H"
+  },
+  {
+    name: "Overall Top Achiever - 1st Year Bachelor of Information Technology in Business Systems",
+    issuer: "Rosebank International (formerly Rosebank College)",
+    category: "Professional Development",
+    issueDate: "18/09/2026",
+    expiryDate: "N/A",
+    status: "Complete",
+    description: "Rosebank International — Semester 1 Overall Top Achiever Certificate, awarded to Keamohetse Mgazi for achieving first place in the 1st year of the Bachelor of Information Technology in Business Systems qualification at Rosebank International, Pretoria Campus. Dated 18 September 2026 and signed by the Head of Academics.",
+    image: "assets/certificates/Rosebank International Overall top achiever certificate.pdf",
+    verificationUrl: ""
   }
   // Add further certifications here. These three are examples only —
   // replace them with your actual certifications before publishing.
